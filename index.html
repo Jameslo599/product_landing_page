@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <style>
+
+        body {
+            background-color: #42455a;
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        #brandname {
+            font-size: 25px;
+            position: relative;
+        }
+        #header ul {
+            display: inline-flex;
+            align-items: baseline;
+            margin: 60px;
+        }
+        #header li{
+            list-style: none;
+            margin: 0 20px;
+            color: #fff;
+            cursor: pointer;
+            
+        }
+        #header-img {
+            width: 40px;
+            margin: 55px 50px 0 70px;
+            position: absolute
+        }
+        .nav-link {
+            color: #fff;
+            text-decoration: none;
+        }
+        .description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+            font-weight: normal;
+        }
+        #form {
+            margin: 20px 44%;
+            width: 300px;
+        }
+    
+    </style>
+    <html>
+        <head><meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <title>Authentic Japanese Knives</title>
+        </head>
+    <body>
+        <header id="header">
+           <nav id="nav-bar">
+            <img id="header-img" class="nav-link" src="icons8-knife-64.png" alt="knife logo">
+            <ul class="nav-link">
+                <li id="brandname">Authentic Japanese Knives</li>
+                <li><a href="#" class="nav-link">Products</a></li>
+                <li><a href="#" class="nav-link">Features</a></li>
+                <li><a href="#" class="nav-link">Technique</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+            </nav>
+            <div class="description">
+            <h1>Handcrafted, High-Quality Masterpieces</h1>
+            <h2>Subscribe for the latest deals and news!</h2>
+            </div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+                <input id="email" type="email" placeholder="Enter email here" name="email" required>
+                <input id="submit" type="submit" value="Subscribe"> 
+                
+            </form>
+        </header>
+
+
+
+
+
+
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
