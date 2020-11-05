@@ -1,52 +1,4 @@
 <!DOCTYPE html>
-    <style>
-
-        body {
-            background-color: #42455a;
-            font-family: sans-serif;
-            padding: 0;
-            margin: 0;
-            height: 100%;
-            width: 100%;
-        }
-        #brandname {
-            font-size: 25px;
-            position: relative;
-        }
-        #header ul {
-            display: inline-flex;
-            align-items: baseline;
-            margin: 60px;
-        }
-        #header li{
-            list-style: none;
-            margin: 0 20px;
-            color: #fff;
-            cursor: pointer;
-            
-        }
-        #header-img {
-            width: 40px;
-            margin: 55px 50px 0 70px;
-            position: absolute
-        }
-        .nav-link {
-            color: #fff;
-            text-decoration: none;
-        }
-        .description {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            color: #fff;
-            font-weight: normal;
-        }
-        #form {
-            margin: 20px 44%;
-            width: 300px;
-        }
-    
-    </style>
     <html>
         <head><meta charset="utf-8">
               <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,12 +6,16 @@
         </head>
     <body>
         <header id="header">
+            <!--Style Sheet-->
+            <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
            <nav id="nav-bar">
             <img id="header-img" class="nav-link" src="icons8-knife-64.png" alt="knife logo">
             <ul class="nav-link">
                 <li id="brandname">Authentic Japanese Knives</li>
-                <li><a href="#" class="nav-link">Products</a></li>
-                <li><a href="#" class="nav-link">Features</a></li>
+                <li><a href="#container" class="nav-link">Products</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
                 <li><a href="#" class="nav-link">Technique</a></li>
                 <li><a href="#" class="nav-link">Contact</a></li>
             </ul>
@@ -68,12 +24,47 @@
             <h1>Handcrafted, High-Quality Masterpieces</h1>
             <h2>Subscribe for the latest deals and news!</h2>
             </div>
-            <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
-                <input id="email" type="email" placeholder="Enter email here" name="email" required>
-                <input id="submit" type="submit" value="Subscribe"> 
-                
-            </form>
         </header>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+            <input id="email" type="email" placeholder="Enter email here" name="email" required>
+            <input id="submit" type="submit" value="Subscribe"> 
+        </form>
+        <div id="container" class="container">
+            <ul class="column-left">
+                <li><b>Gyuto</b></li>
+                <li>$165</li>
+                <li>Stainless Steel</li>
+                <li>All-purpose Use</li>
+                <li>Extremely Durable</li>
+                <li><input type="submit" value="SELECT"></li>
+            </ul>
+            <ul class="column-center">
+                <li><b>Sujihiki</b></li>
+                <li>$220</li>
+                <li>White #2 Carbon</li>
+                <li>Meat/Fish Slicer</li>
+                <li>Great Edge Sharpness</li>
+                <li><input type="submit" value="SELECT"></li>
+            </ul>
+                <ul class="column-right">
+                    <li><b>Honesuki</b></li>
+                    <li>$260</li>
+                    <li>Aogami Super Carbon</li>
+                    <li>Boning Knife</li>
+                    <li>Long Edge retention</li>
+                    <li><input type="submit" value="SELECT"></li>
+                </ul>
+                
+        </div>
+        <div class="features" id="features">
+            <h2><i class="fas fa-hammer">Expert Craftsmanship</i></h2>
+            <h3>All knives are made in the knife-capital Sakai, Japan.</h3>
+            <h2><i class="fas fa-shipping-fast"> Fast Shipping</i></h2>
+            <h3>We provide free 2-day shipping and returns on orders over $100.</h3>
+            <h2><i class="fas fa-knife-kitchen">Free Initial Sharpening</i></h2>
+            <h3>Want us to take care of making your knife sharp out of the box? Just ask.</h3>
+        </div>
+        
 
 
 
