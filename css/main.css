@@ -1,4 +1,7 @@
 /*Style Sheets*/
+        @media (max-height:800px) {
+            width: 100%;
+        }
         body {
             background-color: #42455a;
             font-family: sans-serif;
@@ -74,6 +77,40 @@
         }
         .features h3 {
             margin: 10px 0 0 35%;
+        }
+        .video-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+        }
+        #video {
+            width: 1000px;
+            height: 668px;
+        }
+        .contact {
+            border-style: solid;
+            padding-bottom: 60px;
+            background-color: rgb(59, 25, 59);
+        }
+        .contact ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-right: -28%;
+        }
+        .contact li {
+            list-style: none;
+            margin: 20px -30px 30px 60px;
+            color: white;
+        }
+        .contact p {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin: -30px 630px;
+            font-size: 13px;
+            color: white;
         }
         
 
