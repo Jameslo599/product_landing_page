@@ -1,1 +1,1 @@
-This is a product landing page for japanese knives.
+This is a product landing page I made for authentic japanese knives using HTML and CSS. After finishing the project, I strenghtened my use of embedding videos, flexbox, nav-bars and backgrounds with gradient design. I do need improve the responsiveness of this web page as it currently does not work very well on mobile devices. 
